@@ -1,0 +1,12 @@
+public class Two {
+    // print elements at odd idx
+    public static void main(String[] args) {
+        int[] arr = { 2, 5, 9, 0, -3, -7, 21, 38, -11};
+
+        for (int i = 0; i < arr.length; i++) {
+            if (i%2!= 0) {
+                System.out.println(arr[i]);
+            }
+        }
+    }
+}
